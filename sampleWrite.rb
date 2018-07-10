@@ -12,7 +12,6 @@ sheet = book.create_worksheet
 #sheetの名前を設定する。
 sheet.name = "Sheet1"
 
-
 10.times do |n|
     sheet[n, 0] = n
     sheet[n, 1] = n * n
